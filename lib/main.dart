@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         create: (_) => MainModel(),
         child: Scaffold(
           appBar: AppBar(
-            title: Text('チームメンバー'),
+            title: Text('アルタイル'),
           ),
           body: Consumer<MainModel>(
             builder: (context, model, child) {
